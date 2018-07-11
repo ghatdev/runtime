@@ -1,7 +1,7 @@
 # runtime
 ## Usage
 ```bash
-runtime BINARY [arg1, arg2,...]
+$ runtime BINARY [arg1, arg2,...]
 ```
 ## Example
     - INPUT 
