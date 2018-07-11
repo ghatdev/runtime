@@ -12,7 +12,7 @@ fn main() {
     let output = Command::new(command)
         .args(args_slice)
         .output()
-        .expect("failed");
+        .expect("[ERROR]: failed to execute command");
 
     let _result = String::from_utf8_lossy(&output.stdout);
     
