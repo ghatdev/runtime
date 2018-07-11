@@ -4,11 +4,11 @@
 $ runtime BINARY [arg1, arg2,...]
 ```
 ## Example
-    - INPUT 
+- INPUT 
 ```bash
 $ runtime ls -al
 ```
-    - OUTPUT
+- OUTPUT
 ```
 [OUTPUT]:
 .
