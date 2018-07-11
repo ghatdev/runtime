@@ -1,25 +1,25 @@
-### runtime
+# runtime
 ## Usage
-    ```bash
-    runtime BINARY [arg1, arg2,...]
-    ```
+```bash
+runtime BINARY [arg1, arg2,...]
+```
 ## Example
     - INPUT 
-    ```bash
-    runtime ls -al
-    ```
+```bash
+$ runtime ls -al
+```
     - OUTPUT
-    ```
-    [OUTPUT]:
-    .
-    ..
-    .git
-    .gitignore
-    Cargo.lock
-    Cargo.toml
-    src
-    target
+```
+[OUTPUT]:
+.
+..
+.git
+.gitignore
+Cargo.lock
+Cargo.toml
+src
+target
 
 
-    Duration: 4ms.
-    ```
+Duration: 4ms.
+```
